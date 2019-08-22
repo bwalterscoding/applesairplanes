@@ -34,6 +34,9 @@ gem 'jbuilder', '~> 2.5'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+gem 'bootstrap-sass', '~> 3.4.1'
+gem 'sassc-rails', '>= 2.1.0'
+
 group :development, :test do
   gem 'sqlite3', '1.3.13'
 # Use Puma as the app server
