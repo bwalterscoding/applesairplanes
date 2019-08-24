@@ -8,6 +8,6 @@ Bundler.require(*Rails.groups)
 
 module Apples
   class Application < Rails::Application
-    config.serve_static_assets = true
+    config.assets.initialize_on_precompile = false
   end
 end
